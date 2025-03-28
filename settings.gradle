@@ -1,5 +1,5 @@
 include ":app"
-// File: app/build.gradle (app level)
+
 apply plugin: 'com.android.application'
 
 android {
@@ -20,7 +20,7 @@ android {
 }
 
 dependencies {
-    implementation 'com.github.reactivecircus.android-sdk:v2' // Pastikan ini adalah versi yang valid
+    implementation 'com.github.reactivecircus.android-sdk:v2'  // Dependensi yang diperlukan
     implementation 'androidx.appcompat:appcompat:1.3.0'
     implementation 'com.google.android.material:material:1.4.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'

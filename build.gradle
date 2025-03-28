@@ -1,20 +1,20 @@
 rootProject.name="DeteksiBenur-Android"
-// File: build.gradle (root level)
+
 buildscript {
     repositories {
-        google() // Repositori Google
-        mavenCentral() // Repositori Maven Central
-        jcenter() // Jika diperlukan, meskipun sudah deprecated
+        google()  // Repositori untuk SDK Android
+        mavenCentral()  // Repositori untuk Maven
+        jcenter()  // Repositori JCenter (meskipun deprecated, masih digunakan untuk beberapa dependensi)
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.0.2' // Versi plugin Android Gradle
+        classpath 'com.android.tools.build:gradle:7.0.2'
     }
 }
 
 allprojects {
     repositories {
-        google() // Repositori Google untuk Android SDK
-        mavenCentral() // Repositori Maven Central
-        jcenter() // Repositori JCenter (deprecated, tapi mungkin masih diperlukan untuk beberapa dependensi)
+        google()  // Repositori untuk SDK Android
+        mavenCentral()  // Repositori untuk Maven
+        jcenter()  // Repositori JCenter (deprecated, tetapi masih berguna)
     }
 }
